@@ -63,7 +63,13 @@ Data-Analysis-Project/
 │   ├── 📄 Dashboard_Screenshot_Amazon.png
 │   └── 📄 
 
-
-
+Case_Study_2_KMS_Inventory_Analysis/
+│   ├── 📄 KMS_Inventory_Data.xlsx
+│   ├── 📄 KMS_Case_Study_Answers.md
+│   ├── 📄 SQL_Queries_KMS.sql
+│   ├── 📄 Dashboard_Screenshot_KMS.png
+│   └── 📄 
+│
+├── 📄 README.md  ← Project overview and instruction
 
  
