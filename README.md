@@ -18,7 +18,7 @@ Both case studies are designed to demonstrate my skills in:
 
 ## 📊 Case Study 1: Amazon Product Review Analysis
 
-**Scenario**:  
+**Synopsis**:  
 As a Junior Data Analyst at *RetailTech Insights*, I was tasked with analyzing Amazon product and customer review data to uncover trends, consumer behavior, and product performance metrics.
 
 **Objectives**:
@@ -36,7 +36,7 @@ As a Junior Data Analyst at *RetailTech Insights*, I was tasked with analyzing A
 
 ## 🏬 Case Study 2: Kultra Mega Stores (KMS) Inventory Analysis
 
-**Scenario**:  
+**Synopsis**:  
 As a Business Intelligence Analyst at *KMS* (a Nigerian retail and wholesale store), I analyzed historical order data (2009–2012) to support the Abuja division with performance insights and strategic recommendations.
 
 **Objectives**:
