@@ -53,11 +53,11 @@ As a Business Intelligence Analyst at *KMS* (a Nigerian retail and wholesale sto
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 Data-Analysis-Project/
-│
-├── 📁 Case_Study_1_Amazon_Product_Review/
+
+Case_Study_1_Amazon_Product_Review/
 │   ├── 📄 Amazon_Review_Data.xlsx
 │   ├── 📄 Amazon_Review_Analysis.md
 │   ├── 📄 Dashboard_Screenshot_Amazon.png
