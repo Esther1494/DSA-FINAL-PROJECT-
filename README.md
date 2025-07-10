@@ -1,100 +1,97 @@
-# Data Analysis Project: Amazon Reviews & KMS Inventory views
+# 📊 Amazon Product Review Analysis (Excel-Based Case Study)
 
- Welcome to my data analysis project repository! This project combines two case studies to showcase the use of **SQL**, **Excel**, **Pivot Tables**, and **Dashboard Design** to derive practicable business insights from raw data.
+Welcome to my Excel-based data analysis case study! This project showcases how **Microsoft Excel** was used to clean, analyze, and visualize Amazon product review data to generate valuable business insights.
 
- ## Project Overview
-
- This project includes two case studies:
- 
-1. **Amazon Product Review Analysis**  
-2. **Kultra Mega Stores (KMS) Inventory Analysis**
-
-Both case studies are designed to demonstrate my skills in:
-- Data cleaning
-- Exploratory data analysis
-- Business intelligence
-- Dashboard creation
-- SQL querying and reporting
-
-## 📊 Case Study 1: Amazon Product Review Analysis
-
-**Synopsis**:  
-As a Junior Data Analyst at *RetailTech Insights*, I was tasked with analyzing Amazon product and customer review data to uncover trends, consumer behavior, and product performance metrics.
-
-**Objectives**:
-- Calculate average discounts and ratings
-- Identify high-performing products
-- Analyze customer engagement through reviews
-- Explore pricing buckets and potential revenue
-- Determine how rating relates to discount level
-
-**Tools Used**:  
-- Excel (Pivot Tables, Formulas, Charts)
-- Basic statistical analysis
+> **🔧 Tools Used:** Microsoft Excel (Formulas, Pivot Tables, Charts, Slicers, Dashboards)  
+> **📁 Dataset Format:** `.xlsx`  
+> **📈 Focus Areas:** Customer behavior, product performance, discount effect, engagement analysis  
 
 ---
 
-## 🏬 Case Study 2: Kultra Mega Stores (KMS) Inventory Analysis
+## 📌 Project Summary
 
-**Synopsis**:  
-As a Business Intelligence Analyst at *KMS* (a Nigerian retail and wholesale store), I analyzed historical order data (2009–2012) to support the Abuja division with performance insights and strategic recommendations.
+In this case study, I worked as a **Junior Data Analyst** at *RetailTech Insights* and was tasked with analyzing a dataset of Amazon product reviews. The project objective was to explore how customer ratings, reviews, discounts, and pricing interact to impact product performance and customer satisfaction.
 
-**Objectives**:
-- Determine top-performing product categories and regions
-- Analyze small business and corporate customer behavior
-- Identify the most profitable and most returning customers
-- Evaluate shipping method cost-effectiveness based on order priority
-- Recommend ways to increase revenue from bottom-tier customers
-
-**Tools Used**:
-- SQL (for querying and aggregation)
-- Excel (for visualization and reporting)
-- Logical reasoning for business recommendations
+The goal was to create a **clean, interactive Excel dashboard** for non-technical stakeholders and derive **data-driven recommendations** for marketing and product teams.
 
 ---
 
-##  Folder Structure
+## 🎯 Key Objectives
 
-Data-Analysis-Project/
+- 🔍 Clean and prepare the raw dataset for analysis
+- ⭐ Calculate average ratings and review volumes
+- 💰 Analyze the relationship between product discounts and ratings
+- 📊 Segment data by product category and pricing tiers
+- 🏆 Identify top- and bottom-performing products
+- 🧠 Provide actionable insights to inform product pricing and promotional strategies
 
-Case_Study_1_Amazon_Product_Review/
-│   ├── 📄 Amazon_Review_Data.xlsx
-│   ├── 📄 Amazon_Review_Analysis.md
-│   ├── 📄 Dashboard_Screenshot_Amazon.png
-│   └── 📄 
+---
 
-Case_Study_2_KMS_Inventory_Analysis/
-│   ├── 📄 KMS_Inventory_Data.xlsx
-│   ├── 📄 KMS_Case_Study_Answers.md
-│   ├── 📄 SQL_Queries_KMS.sql
-│   ├── 📄 Dashboard_Screenshot_KMS.png
-│   └── 📄 
+## 🧰 Tools, Features & Techniques
+
+| Category           | Details                                                                 |
+|--------------------|-------------------------------------------------------------------------|
+| **Software**        | Microsoft Excel (2016+)                                                 |
+| **Data Cleaning**   | `IF()`, `TRIM()`, `CLEAN()`, `ISBLANK()`, conditional formatting        |
+| **Analysis**        | `AVERAGEIFS()`, `SUMIFS()`, `COUNTIFS()`, `RANK()`, `VLOOKUP()`         |
+| **Pivot Tables**    | Dynamic summary of product categories, ratings, review counts           |
+| **Charts**          | Bar charts, pie charts, KPI cards, trend lines                          |
+| **Dashboard Design**| Slicers, drop-downs, interactive filters, visual hierarchy              |
+
+---
+
+## 🧹 Data Cleaning Process
+
+The raw dataset required several cleaning steps, all completed in Excel:
+
+1. **Removed blank rows, duplicates, and inconsistent text formats**
+2. **Created derived fields**, including:
+   - `Discount %` = `(Original Price - Discounted Price) / Original Price`
+   - `Rating Bucket` = grouped into *Excellent*, *Good*, *Average*, *Poor*
+   - `Review-to-Product Ratio` = proxy for engagement
+3. **Standardized product categories and currency formats**
+4. Used **conditional formatting** to highlight anomalies (e.g., zero ratings with high reviews)
+
+---
+
+## 📊 Analysis Highlights
+
+| Insight | Description |
+|--------|-------------|
+| ⭐ **Top-Rated Products** | Mostly had moderate discounts (10–25%), indicating value-price sweet spot |
+| 🚨 **Heavily Discounted Products** | (>40%) had lower average ratings, suggesting quality concerns or overstock issues |
+| 📦 **High Engagement Categories** | Electronics and home goods had the most customer reviews |
+| 📈 **Revenue Opportunity** | Mid-priced products ($25–$75) had the highest review volume and ratings—ideal for upselling |
+| 🧩 **Category Gaps** | Some high-rated categories had low review volumes—potential under-marketed segments |
+
+---
+
+## 📊 Interactive Excel Dashboard
+
+The final dashboard was designed to be used by non-technical stakeholders in product and marketing teams.
+
+### 🧩 Features:
+- ✅ KPI Cards for Average Rating, Discount %, and Total Reviews
+- 📈 Pivot Charts for:
+  - Product Ratings by Category
+  - Reviews vs. Discount Levels
+  - Top 10 Products by Rating and Review Count
+- 🔘 Slicers for:
+  - Category
+  - Price Tier
+  - Rating Bucket
+
+> 📷 **Preview the Dashboard**:  
+> ![Dashboard Screenshot](Dashboard_Screenshot_Amazon.png)
+
+---
+
+## 📁 Repository Structure
+
+```bash
+Amazon_Product_Review_Analysis/
 │
-├── 📄 README.md  ← Project overview and instruction
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+├── 📄 Amazon_Review_Data.xlsx               # Cleaned dataset (Excel)
+├── 📄 Amazon_Review_Analysis.md             # Step-by-step explanation of analysis
+├── 📄 Dashboard_Screenshot_Amazon.png       # Screenshot of the final dashboard
+└── 📄 README.md                              # Project documentation (this file)
